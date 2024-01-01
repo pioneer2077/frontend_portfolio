@@ -5,9 +5,9 @@ import { BsPlus, BsFillLightningFill, BsGearFill } from "react-icons/bs";
 import { FaFire, FaPoo } from "react-icons/fa";
 
 export default function Nav() {
-  // useEffect(() => {
-  //   window.document.body.classList.add("dark");
-  // }, []);
+  useEffect(() => {
+    window.document.body.classList.add("dark");
+  }, []);
 
   return (
     <div
